@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Latihan JS</title>
+  </head>
+  <body>
+    <h2>Counter</h2>
+    <h3 id="counter">0</h3>
+    <button onclick="lower()" style="padding: 10px">-</button>
+    <button onclick="add()"" style="padding: 10px">+</button>
+    <script>
+      var count = 0;
+
+      function lower() {
+        count -= 1; // count - 1 = 0 - 1
+        document.getElementById("counter").innerHTML = count;
+      }
+
+      function add() {
+        count += 1; // count + 1 = 0 + 1
+        document.getElementById("counter").innerHTML = count;
+      }
+    </script>
+  </body>
+</html>

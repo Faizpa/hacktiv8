@@ -1,0 +1,18 @@
+Algoritma Luas_Keliling_Lingkaran
+
+deklarasi :
+var phi : float; {nilai konstanta phi dengan tipe data float}
+var r : float; {jari-jari lingkaran dengan tipe data float}
+var luas : float; {luas lingkaran dengan tipe data float}
+var keliling : float; {keliling lingkaran dengan tipe data float}
+
+algoritma :
+phi <-- 3.14; {nilai phi}
+
+read(r); {diinput user}
+
+luas <-- phi * r * r; {rumus luas lingkaran}
+keliling <-- 2 * phi * r; {rumus keliling lingkaran}
+
+write(luas); {hasil luas lingkaran}
+write(keliling); {hasil keliling lingkaran}

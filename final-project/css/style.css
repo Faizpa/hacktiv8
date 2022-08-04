@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Courgette&display=swap");
+
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+.bg-purple {
+  background-color: #571c8d;
+}
+.container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #fdc7e3;
+  font-family: "Courgette", cursive;
+}
+.paragraf {
+  text-align: justify;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+#about {
+  color: white;
+}
+.image-portfolio {
+  width: 100%;
+  margin-bottom: 24px;
+}
+#portfolio .title {
+  color: #d561c2;
+}
+.navbar-brand {
+  color: #fdc7e3;
+  font-family: "Courgette", cursive;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+footer {
+  padding: 16px;
+  color: white;
+}
